@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-lightship",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Readiness, liveness and startup checks for Nuxt.js",
+  "main": "index.js",
+  "repository": "https://github.com/cilice/nuxt-lightship-module.git",
+  "author": "Alexander Plavinski <hello@cilice.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "lightship": "^6.6.1"
+  }
+}
